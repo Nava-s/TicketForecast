@@ -1,7 +1,3 @@
-Sure, here is the README translated into English:
-
----
-
 # Ticket Quantity Prediction Project with XGBoost
 
 ## Project Description
@@ -37,5 +33,3 @@ This project aims to predict the quantity of tickets using the XGBoost machine l
 ## Conclusions
 
 This project demonstrates the use of advanced machine learning techniques for predicting ticket quantities. The XGBoost model proved effective in making predictions, with satisfactory performance metrics.
-
----
