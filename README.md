@@ -1,5 +1,29 @@
 # Ticket Quantity Prediction Project with XGBoost
 
+## Dataset Description
+The dataset contains information about the quantity of restaurant tickets to be ordered each month. It includes the following columns:
+1. **Ticket Ordering File**: This dataset contains information about the quantity of restaurant tickets to be ordered each month. It includes the following columns:
+   - **Company Name**: The name of the company.
+   - **Employee ID**: The unique identifier for each employee.
+   - **Job Location**: The location where the employee works.
+   - **Quantity of Tickets**: The number of restaurant tickets to be ordered.
+   - **Value of Tickets**: The monetary value of the tickets.
+   - **Date**: The date of the order, formatted as DD/MM/YYYY (e.g., 30/11/2024 for November 2024).
+
+2. **Employee's Job Information**: This dataset contains information about the employees' job details. It includes the following columns:
+
+   - **Employee ID**: The unique identifier for each employee.
+   - **Collective Contract**: The type of collective contract the employee is under.
+   - **Qualification**: The employee's job qualification.
+   - **Weekly Working Days**: The number of days the employee works per week.
+   - **Shift Worker**: Indicates if the employee is a shift worker.
+   - **Part-time Percentage**: The percentage of part-time work.
+   - **Trustee**: Indicates if the employee is a trustee.
+   - **On-call**: Indicates if the employee is on-call.
+   - **Smart Working**: Indicates if the employee is working remotely.
+   - **Organizational Structure Code**: The code of the organizational structure.
+   - **Job Code**: The code of the job position.
+
 ## Project Description
 
 This project aims to predict the quantity of tickets using the XGBoost machine learning model. The dataset used contains information about orders and employees, which have been combined and pre-processed to create a final dataset suitable for training the model.
